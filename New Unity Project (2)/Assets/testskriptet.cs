@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class testskriptet : MonoBehaviour
 {
+    int skallebank = 0;
     // Start is called before the first frame update
     void Start()
     {
         
+        skallebank++;
     }
 
     // Update is called once per frame
