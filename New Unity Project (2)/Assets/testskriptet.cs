@@ -14,5 +14,6 @@ public class testskriptet : MonoBehaviour
     void Update()
     {
         transform.Rotate(new Vector3(0, Time.deltaTime * 60, 0));
+        Debug.Log("JonteArEttSvian");
     }
 }
